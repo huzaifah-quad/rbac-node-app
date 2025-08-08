@@ -26,3 +26,10 @@ or
 
 see example in backend/test_hit.http
 
+
+### 3. Entity Diagram
+please see in entity-diagram.png
+
+
+### 4. mockup and sample App
+see screenshot in mockup-fe directory
