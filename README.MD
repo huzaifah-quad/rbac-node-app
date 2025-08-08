@@ -28,7 +28,7 @@ see example in backend/test_hit.http
 
 
 ### 3. Entity Diagram
-please see in entity-diagram.png
+please see in entity-diagram.png or entity-diagram.pdf file
 
 
 ### 4. mockup and sample App
