@@ -1,0 +1,22 @@
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ivan123
+      POSTGRES_DB: rbac_db_5
+    ports:
+      - "5439:5432"
+  backend:
+    build: ./backend
+    env_file: ./backend/.env
+    ports:
+      - "4000:4000"
+    depends_on:
+      - db
+  #frontend:
+  #  build: ./front-end
+  #  ports:
+  #    - "3000:3000"
+  #  depends_on:
+  #    - backend
